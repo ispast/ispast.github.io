@@ -1,2 +1,1 @@
-# ispast.github.io
-小站
+# 什么都没有啦
