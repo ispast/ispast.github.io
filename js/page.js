@@ -1,0 +1,1 @@
+document.write("<img src='/img/background.png' height='100' weight='100' alt='100' />");
