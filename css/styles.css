@@ -1,0 +1,71 @@
+body {
+    background-image:url('../img/mito.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:#fff;
+    margin:auto;
+    height: 100vh;
+    min-width: 1850px;
+}
+
+#container{
+    display:grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 1fr 3fr;
+    grid-template-areas: 
+        '. pendant1 pendant2 pendant3 pendant4 pendant5 pendant6 pendant7 pendant8 .'
+        '. . . computer computer computer computer . . .';
+    height: 100%;
+}
+
+#pendant1{
+    grid-area:pendant1;
+}
+
+#pendant2{
+    grid-area:pendant2;
+}
+
+#pendant3{
+    grid-area:pendant3;
+}
+
+#pendant4{
+    grid-area:pendant4;
+}
+
+#pendant5{
+    grid-area:pendant5;
+}
+
+#pendant6{
+    grid-area:pendant6;
+}
+
+#pendant7{
+    grid-area:pendant7;
+}
+
+#pendant8{
+    grid-area:pendant8;
+}
+
+#computer{
+    grid-area: computer;
+}
+
+.comp{
+    background-image: url('../img/computer.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+    width: 600px;
+    height: 500px;
+    padding: 22px 90px 127px 58px;
+}
+
+.comp{
+    position: relative;
+    top: 220px; left: 65px;
+}
+
